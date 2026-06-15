@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: document-extraction-service
+Version: 0.1.0
+Summary: Document extraction microservice - extracts structured content from DOCX, PDF, PPTX, XLSX, HTML, CSV
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.115
+Requires-Dist: uvicorn[standard]>=0.34
+Requires-Dist: python-multipart>=0.0.18
+Requires-Dist: pydantic-settings>=2.7
+Requires-Dist: PyMuPDF>=1.25
+Requires-Dist: pdfplumber>=0.11
+Requires-Dist: python-docx>=1.1
+Requires-Dist: python-pptx>=1.0
+Requires-Dist: openpyxl>=3.1
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: pandas>=2.2
+Requires-Dist: langdetect>=1.0
+Requires-Dist: structlog>=24.4
+Provides-Extra: ocr
+Requires-Dist: pytesseract>=0.3; extra == "ocr"
+Requires-Dist: pdf2image>=1.17; extra == "ocr"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.24; extra == "dev"
+Requires-Dist: httpx>=0.28; extra == "dev"
+Requires-Dist: ruff>=0.8; extra == "dev"
