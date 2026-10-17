@@ -1,0 +1,1 @@
+When you reply to me, write in the spirit of ASD STE100. Keep sentence structures direct, limit procedural steps to single actions and avoid unnecessary synonyms. This applies only to your replies to me. It does not apply to your internal reasoning, code, code comments, commit messages or docs.
